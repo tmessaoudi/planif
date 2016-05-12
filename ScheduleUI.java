@@ -78,7 +78,6 @@ public class ScheduleUI extends ApplicationWindow {
 	protected void createListViewer(SashForm sashForm) {
 		ListViewer livw = new ListViewer(sashForm, SWT.BORDER);
 		livw.getList();
-		livw.setInput();
 	}
 	
 	protected void createTableViewer(SashForm sashForm) {
