@@ -1,23 +1,20 @@
 package fr.tl.ilog.sched;
 
 import java.util.LinkedList;
-import java.util.List;
 
+/**
+ * Classe d'activité de type "Travaux Personnels".
+ */
 public class TP extends Activity {
-	
-	protected List<Room> rooms;
 
-	public TP(String name, LinkedList<Activity> fils) {
-		super(name, fils);
+	/**
+	 * @param name
+	 * 		Nom du TP.
+	 * @param children
+	 * 		Liste des activités qui ont ce TP pour pré-requis.
+	 */
+	public TP(String name, LinkedList<Activity> children) {
+		super(name, children);
 		rooms = null;
 	}
-
-	public List<Room> getGoodroom() {
-		return rooms;
-	}
-
-	public void setGoodroom(List<Room> goodroom) {
-		rooms = goodroom;
-	}
-
 }
