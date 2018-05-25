@@ -7,5 +7,5 @@ The purpose of this project is to suggest a set of the best schedules possible a
 - Swing/SWT
 
 # Disclaimer
-> This Project was done during my 4th year in Telecom Lille (now Institut-Mines-Telecom Lille-Douai), it's really not complete(and kinda badly done) 
+> This Project was done during my 4th year in Telecom Lille (now Institut-Mines-Telecom Lille-Douai) with another student, it's really not complete(and kinda badly done) 
 
